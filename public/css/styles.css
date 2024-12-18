@@ -1,0 +1,39 @@
+body {
+  background: #fff;
+  color: #000;
+}
+
+.gray{
+  color: #00000070
+}
+
+.heading-card-flex{
+  display: flex;
+}
+.heading-card-flex h2{
+  margin-right: 10px;
+}
+
+.t-uppercase{
+  text-transform: uppercase;
+}
+
+.card-link a{
+    text-transform: uppercase;
+    color: #2a609d;
+}
+
+.slick-slide-button-nav{
+  float: right;
+}
+.previous-icon{
+  transform: rotate(180deg); 
+  margin-top: -5px;
+  margin-right: 9px;
+  float: left;
+}
+@media screen and (max-width: 767px) {
+  .slick-slide-button-nav{
+    display: none;
+  }
+}
